@@ -1,0 +1,10 @@
+# 이 파일을 terraform.tfvars 로 복사한 뒤 값을 채운다.
+#   cp terraform.tfvars.example terraform.tfvars
+#
+# terraform.tfvars 는 .gitignore 에 등록되어 있어 커밋되지 않는다.
+# 다른 서비스에서 쓰는 비밀번호를 재사용하지 말 것.
+
+region  = "ap-northeast-2"
+project = "seclab"
+
+db_password = "여기에-실습용-비밀번호-입력"

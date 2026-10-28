@@ -1,1 +1,0 @@
-aws_secret = "AKIAIOSFODNN7EXAMPLE"
