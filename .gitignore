@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+
+# 자격증명
+.env
+*.pem
+*.key
+credentials
+
+# 기타
+__pycache__/
+.DS_Store
